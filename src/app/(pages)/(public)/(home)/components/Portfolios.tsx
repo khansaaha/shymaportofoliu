@@ -25,8 +25,8 @@ const Portfolios = ({ portfolios }: { portfolios: ProjectType[] }) => {
                   <Col className="text-end pe-5">{portfolio.description}</Col>
                 </div>
                 <Row className="mt-4">
-                  <Col className="image-reveal-container">
-                    <Image src={portfolio.image} alt="portfolio" />
+                  <Col>
+                    <Image src={portfolio.image} alt="portfolio" className="img-fluid shadow rounded" />
                   </Col>
                 </Row>
                 {/* <div className="overlay">
