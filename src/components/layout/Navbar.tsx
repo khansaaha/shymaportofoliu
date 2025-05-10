@@ -33,14 +33,14 @@ const Navbar = ({ buttonVariant, centered }: NavbarProps) => {
           </button>
           <Collapse in={isOpen} className="navbar-collapse">
             <div>
-              <AppMenu centered={centered} />
+              {/* <AppMenu centered={centered} />
               <ul className="navbar-nav align-items-lg-center d-flex">
                 <li className="nav-item ms-2">
                   <Button variant={buttonVariant} size="sm">
                     Download
                   </Button>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </Collapse>
         </Container>

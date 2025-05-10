@@ -1,5 +1,25 @@
 // feature 1
-.features-1 {
+.image-reveal-container {
+    position: relative;
+    max-height: 400px; 
+    overflow: hidden;
+  }
+  
+  .image-reveal-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    transition: top 0.6s ease;
+  }
+  
+  /* On hover: move image down into view */
+  .image-reveal-container:hover img {
+    top: -50%; 
+  }
+  
+  .features-1 {
     .img-content {
         position: relative;
 

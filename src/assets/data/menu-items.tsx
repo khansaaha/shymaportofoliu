@@ -220,12 +220,6 @@ const MENU_ITEMS: MenuItemTypes[] = [
 ]
 
 const HORIZONTAL_MENU_ITEMS: MenuItemTypes[] = [
-  {
-    key: 'home',
-    label: 'Home',
-    url: '/',
-    isTitle: true,
-  }
 ]
 
 export { HORIZONTAL_MENU_ITEMS, MENU_ITEMS }

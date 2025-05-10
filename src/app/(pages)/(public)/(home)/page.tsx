@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Agency Landing',
+  title: 'Shyma Hasan',
 }
 
 const Agency = () => {
@@ -22,10 +22,10 @@ const Agency = () => {
       </div>
       <Services services={services} />
       <Portfolios portfolios={projects} />
-      <Clients />
-      <Blogs blogs={blogPosts} />
-      <Vacancies jobDetails={jobDetails} />
-      <Footer />
+      {/* <Clients /> */}
+      {/* <Blogs blogs={blogPosts} /> */}
+      {/* <Vacancies jobDetails={jobDetails} /> */}
+      {/* <Footer /> */}
     </>
   )
 }

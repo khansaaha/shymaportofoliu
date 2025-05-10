@@ -10,8 +10,8 @@ const Portfolios = ({ portfolios }: { portfolios: ProjectType[] }) => {
         <Row className="justify-content-center">
           <Col className="text-center">
             <span className="badge rounded-pill badge-soft-success px-2 py-1">Latest</span>
-            <h1 className="display-5 fw-semibold">Featured Work</h1>
-            <p className="text-muted">Explore some of our latest website projects</p>
+            <h1 className="display-5 fw-semibold">portofolio</h1>
+            {/* <p className="text-muted">Explore some of our latest website projects</p> */}
           </Col>
         </Row>
         <Row className="features-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration={600}>
@@ -25,27 +25,27 @@ const Portfolios = ({ portfolios }: { portfolios: ProjectType[] }) => {
                   <Col className="text-end pe-5">{portfolio.description}</Col>
                 </div>
                 <Row className="mt-4">
-                  <Col>
-                    <Image src={portfolio.image} alt="portfolio" className="img-fluid shadow rounded" />
+                  <Col className="image-reveal-container">
+                    <Image src={portfolio.image} alt="portfolio" />
                   </Col>
                 </Row>
-                <div className="overlay">
+                {/* <div className="overlay">
                   <Button variant="secondary" size="sm" className="btn-view shadow-lg">
                     View Project <IconifyIcon className="icon-xs ms-2" icon="lucide:arrow-right" />
                   </Button>
-                </div>
+                </div> */}
               </div>
             </Col>
           ))}
         </Row>
-        <Row className="mt-6 justify-content-center">
+        {/* <Row className="mt-6 justify-content-center">
           <Col xs="auto">
             <Button variant="outline-secondary" className="mb-2">
               Explore All Work
               <IconifyIcon className="icon-xxs ms-2" icon="lucide:arrow-right" />
             </Button>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </section>
   )

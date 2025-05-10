@@ -20,8 +20,8 @@ const Services = ({ services }: { services: ServiceType[] }) => {
       <Container>
         <Row className="justify-content-center">
           <Col className="text-center">
-            <h1 className="display-5 fw-semibold">What We Do</h1>
-            <p className="text-muted mx-auto">We are helping businesses to develop their web applications</p>
+            <h1 className="display-5 fw-semibold">What I Do</h1>
+            <p className="text-muted mx-auto">Designing Digital Experiences That Make an Impact</p>
           </Col>
         </Row>
         <Row className="pt-5 features-5">

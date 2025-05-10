@@ -7,6 +7,9 @@ import coworking2 from '@/assets/images/hero/coworking2.jpg'
 import coworking3 from '@/assets/images/hero/coworking4.jpg'
 import projectImg1 from '@/assets/images/features/agency1.jpg'
 import projectImg2 from '@/assets/images/features/agency2.jpg'
+import projectImg3 from '@/assets/images/features/agency3.jpg'
+import projectImg4 from '@/assets/images/features/agency4.jpg'
+import projectImg5 from '@/assets/images/features/agency5.jpg'
 
 const services: ServiceType[] = [
   {
@@ -30,9 +33,9 @@ const services: ServiceType[] = [
       </svg>
     ),
     variant: 'primary',
-    title: 'User Experience Design',
+    title: 'UI/UX Design',
     description:
-      'Following the best process that a great design teams use to create products that provide meaningful and relevant experiences to users',
+      'From wireframes to polished interfaces for web and mobile',
   },
   {
     icon: (
@@ -51,8 +54,8 @@ const services: ServiceType[] = [
       </svg>
     ),
     variant: 'orange',
-    title: 'Front End Development',
-    description: 'Development of the websites for businesses of all sizes and shapes and covering a small to enterprise organizations',
+    title: 'Prototyping & User Flows',
+    description: 'Creating smooth, logical journeys for users',
   },
   {
     icon: (
@@ -73,8 +76,8 @@ const services: ServiceType[] = [
       </svg>
     ),
     variant: 'success',
-    title: 'Brand Identitty Design',
-    description: 'Making a new identities for your brand with an effective collaboration and considered design. We treat your brand like our own',
+    title: 'Design Systems',
+    description: 'Building consistent, scalable visual languages for brands',
   },
 ]
 
@@ -140,12 +143,17 @@ const projects: ProjectType[] = [
   {
     title: 'Project 3',
     description: 'Branding, Interaction, Web Design',
-    image: projectImg2,
+    image: projectImg3,
   },
   {
     title: 'Project 4',
     description: 'Branding, Web Design & Development',
-    image: projectImg1,
+    image: projectImg4,
+  },
+  {
+    title: 'Project 4',
+    description: 'Branding, Web Design & Development',
+    image: projectImg5,
   },
 ]
 

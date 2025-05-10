@@ -17,27 +17,27 @@ const Hero = () => {
               data-aos-duration={1000}>
               <Link href="">
                 <div className="d-flex align-items-center">
-                  <div className="badge rounded-pill bg-orange px-2 py-1">New!</div>
-                  <div className="mx-3">Check our latest article on design</div>
+                  <div className="badge rounded-pill bg-orange px-2 py-1">UI/UX Designer</div>
+                  <div className="mx-3">Turning ideas into clean, user-friendly designs </div>
                 </div>
               </Link>
             </div>
             <h1 className="hero-title fw-medium">
-              We design user experiences that <span className="highlight highlight-warning d-inline-block">works</span>
+              I design experiences that connect<span className="highlight highlight-warning d-inline-block">works</span>
             </h1>
             <p className="mt-4 fs-18 mb-3 mb-sm-6 w-75">
-              We&apos;re a top-notch web design and development team helping business to craft the meaningful and interactive product experiences.
+            I&apos;m a passionate UI/UX designer focused on turning ideas into intuitive, engaging, and visually compelling digital products. From wireframes to final polish, I craft user-centered designs that solve problems and elevate brands.
             </p>
-            <Button variant="secondary">
+            {/* <Button variant="secondary">
               <IconifyIcon icon="lucide:arrow-down" className="icon-xxs me-2" /> View Our Work
-            </Button>
-            <Button variant="outline-secondary" className="ms-2">
+            </Button> */}
+            {/* <Button variant="outline-secondary" className="ms-2">
               Learn More
-            </Button>
+            </Button> */}
           </Col>
         </Row>
       </Container>
-      <div className="align-items-end links-social d-sm-block d-none">
+      {/* <div className="align-items-end links-social d-sm-block d-none">
         <ul className="list-inline text-muted text-uppercase fw-medium">
           <li className="list-inline-item py-2">
             <Link href="">Twitter</Link>
@@ -49,7 +49,7 @@ const Hero = () => {
             <Link href="">Instagram</Link>
           </li>
         </ul>
-      </div>
+      </div> */}
       <div className="shape bottom">
         <svg
           width="1440px"
